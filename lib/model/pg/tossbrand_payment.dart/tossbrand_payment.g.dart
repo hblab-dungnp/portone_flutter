@@ -8,10 +8,10 @@ part of 'tossbrand_payment.dart';
 
 TossBrandPayment _$TossBrandPaymentFromJson(Map<String, dynamic> json) =>
     TossBrandPayment(
-      mehtodId: json['mehtodId'] as String?,
+      methodId: json['methodId'] as String?,
     );
 
 Map<String, dynamic> _$TossBrandPaymentToJson(TossBrandPayment instance) =>
     <String, dynamic>{
-      if (instance.mehtodId case final value?) 'mehtodId': value,
+      if (instance.methodId case final value?) 'methodId': value,
     };

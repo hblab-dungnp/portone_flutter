@@ -4,9 +4,9 @@ part 'tossbrand_payment.g.dart';
 
 @JsonSerializable()
 class TossBrandPayment {
-  String? mehtodId;
+  String? methodId;
 
-  TossBrandPayment({this.mehtodId});
+  TossBrandPayment({this.methodId});
 
   factory TossBrandPayment.fromJson(Map<String, dynamic> json) =>
       _$TossBrandPaymentFromJson(json);
